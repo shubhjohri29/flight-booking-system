@@ -101,29 +101,29 @@ public:
           case 1:
                 cout << "\nFlight selected:"<<endl;
                 cout << "Qantas"<<endl;
-                strcpy(f_d,"Qantas");//copy to string
+                strcpy(f_d,"Qantas");
                 cout << "Departure Time : 08:00"<<endl;
                 cout<<"Arrival Time: 11:05"<<endl;
-                strcpy(tojd,"8:00"); //copy to string
-                strcpy(toja,"11:05");// copy to string
+                strcpy(tojd,"8:00"); 
+                strcpy(toja,"11:05");
                 break;
           case 2:
                 cout << "\nFlight selected:"<<endl;
                 cout << "Fly Dubai"<<endl;
-                strcpy(f_d,"Fly Dubai");//copy to string
+                strcpy(f_d,"Fly Dubai");
                 cout << "Departure Time : 14:00"<<endl;
                 cout<<"Arrival Time: 17:05"<<endl;
-                strcpy(tojd,"14:00");//copy to string
-                strcpy(toja,"17:05");//copy to string
+                strcpy(tojd,"14:00");
+                strcpy(toja,"17:05");
                 break;
           case 3:
                 cout << "\nFlight selected:" << endl;
                 cout << "Go Air" << endl;
-                strcpy(f_d,"Go Air");//copy to string
+                strcpy(f_d,"Go Air");
                 cout << "Departure Time : 19:00" << endl;
                 cout<<"Arrival Time: 22:05" << endl;
-                strcpy(tojd,"19:00");//copy to string
-                strcpy(toja,"22:05");//copy to string
+                strcpy(tojd,"19:00");
+                strcpy(toja,"22:05");
                 break;
           default:
                 cout << "Wrong input entered.\nTry again" << endl;
@@ -227,29 +227,29 @@ public:
         case 1:
             cout << "\nFlight selected:" <<endl;
             cout << "Vistara" << endl;
-            strcpy(f_i,"Vistara");//copy to string
+            strcpy(f_i,"Vistara");
             cout << "Departure Time: 10:00" << endl;
             cout << "Arrival Time: 14:05" << endl;
-            strcpy(tojdi,"10:00");//copy to string
-            strcpy(tojai,"14:05");//copy to string
+            strcpy(tojdi,"10:00");
+            strcpy(tojai,"14:05");
             break;
         case 2:
                cout << "\nFlight selected:" << endl;
                cout << "Fly Dubai" << endl;
-               strcpy(f_i,"Fly Dubai");//copy to string
+               strcpy(f_i,"Fly Dubai");
                cout << "Departure Time: 14:00" << endl;
                cout << "Arrival Time: 18:05" << endl;
-               strcpy(tojdi,"14:00");//copy to string
-                strcpy(tojai,"18:05");//copy to string
+               strcpy(tojdi,"14:00");
+                strcpy(tojai,"18:05");
                 break;
         case 3:
             cout << "\nFlight selected:" << endl;
             cout << "Emirates" << endl;
-            strcpy(f_i,"Emirates");//copy to string
+            strcpy(f_i,"Emirates");
             cout << "Departure Time : 18:00" << endl;
             cout << "Arrival Time: 22:05" << endl;
-            strcpy(tojdi,"18:00");//copy to string
-            strcpy(tojai,"22:05");//copy to string
+            strcpy(tojdi,"18:00");
+            strcpy(tojai,"22:05");
             break;
         default:
             cout << "Wrong input entered" << endl;
